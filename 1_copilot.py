@@ -3,6 +3,8 @@ students = ['Jon', 'Kim', 'Lee']
 # add two more students after the list is created
 students.append('Sara')
 students.append('Miko')
+# change Jon to John
+students[0] = 'John'
 # function to print ‘Hi name’ for each student in the list
 def greet_students(student_list):
     for student in student_list:
